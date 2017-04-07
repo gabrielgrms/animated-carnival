@@ -40,3 +40,9 @@ function fight(){
     }
 
 }
+
+var button = document.querySelector("button");
+button.addEventListener('click', function(){
+    fight();
+    alert("Rolou pau");
+})
