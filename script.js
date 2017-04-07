@@ -31,11 +31,11 @@ function fight(){
         Currenthp2 -= forca1*Math.random(1,6) - armor2*Math.random(1,6);
     }
     if(HP1 > 0){
-        console.log("Nome: ", char, "\n", "Força: ", forca1, "\n", "Armadura: ", armor1, "\n", "HP: " ,Currenthp1, "\n", "Nome: ", char2, "\n", "Força: ", forca2, "\n", "Armadura: ", armor2, "\n", "HP: ", Currenthp2, "\n");
+        console.log("Nome: ", char, "\n", "Força: ", forca1, "\n", "Armadura: ", armor1, "\n", "HP Inicial: ", HP1, "\n", "HP Final: " ,Currenthp1, "\n", "Nome: ", char2, "\n", "Força: ", forca2, "\n", "Armadura: ", armor2, "\n", "HP: ", Currenthp2, "\n");
         console.log("Vencedor: ", char);
     }
     else{
-        console.log("Nome: ", char, "\n", "Força: ", forca1, "\n", "Armadura: ", armor1, "\n", "HP: " ,Currenthp1, "\n", "Nome: ", char2, "\n", "Força: ", forca2, "\n", "Armadura: ", armor2, "\n", "HP: ", Currenthp2, "\n");
+        console.log("Nome: ", char, "\n", "Força: ", forca1, "\n", "Armadura: ", armor1, "\n", "HP Inicial: ", HP2, "\n", "HP Final: " ,Currenthp1, "\n", "Nome: ", char2, "\n", "Força: ", forca2, "\n", "Armadura: ", armor2, "\n", "HP: ", Currenthp2, "\n");
         console.log("Vencedor: ", char);
     }
 
